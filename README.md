@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# 🎓 AI Mentor – Personalized Learning Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+AI Mentor is an AI-powered personalized education web app that helps students learn smarter, plan better, and progress faster. With features like intelligent recommendations, progress tracking, and chat-based tutoring, it makes learning interactive and tailored for individual needs.
 
-## Available Scripts
+## 🚀 Live Demo
+🔗 [AI Mentor Live on Vercel](https://ai-mentor.vercel.app/)  
+📂 [Project Repository on GitHub](https://github.com/username/ai-mentor)
 
-In the project directory, you can run:
+## 🧠 Features
 
-### `npm start`
+- **AI Chatbot**: Ask questions and receive AI-generated explanations.
+- **Study Planner**: Organize tasks with a personalized checklist.
+- **Progress Tracker**: Visualize your learning journey.
+- **Resource Recommender**: Search, filter, and favorite useful learning materials.
+- **Authentication System**: Secure signup and login using JWT.
+- **Interactive Dashboard**: Unified navigation and modern UI.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🎯 Purpose
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To solve the problem of generalized learning platforms by creating a **tailored AI mentor** for every student. The goal is to make education **personalized, interactive, and intelligent** using AI.
 
-### `npm test`
+## 📌 Scope
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Applicable for school, college, and skill-based learners.
+- Scalable for teacher dashboards, parent tracking, and mobile learning.
+- Future integrations: real-time quizzes, generative content, and performance insights.
 
-### `npm run build`
+## 🛠 Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Frontend         | Backend            | AI & Database          |
+|------------------|--------------------|-------------------------|
+| React.js, Tailwind CSS | Node.js, Express.js | OpenAI API, MongoDB Atlas |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🧩 Installation & Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/username/ai-mentor
+cd ai-mentor
 
-### `npm run eject`
+# Install frontend
+cd client
+npm install
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Install backend
+cd ../server
+npm install
+node index.js
