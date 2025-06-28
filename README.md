@@ -3,8 +3,8 @@
 AI Mentor is an AI-powered personalized education web app that helps students learn smarter, plan better, and progress faster. With features like intelligent recommendations, progress tracking, and chat-based tutoring, it makes learning interactive and tailored for individual needs.
 
 ## 🚀 Live Demo
-🔗 [AI Mentor Live on Vercel](https://ai-mentor.vercel.app/)  
-📂 [Project Repository on GitHub](https://github.com/username/ai-mentor)
+🔗 [AI Mentor Live on Vercel]([https://ai-mentor.vercel.app/](https://ai-mentor-nu.vercel.app/))  
+📂 [Project Repository on GitHub](https://github.com/Chaitanyadeep14/AI-mentor)
 
 ## 🧠 Features
 
